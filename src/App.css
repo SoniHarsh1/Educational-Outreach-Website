@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Adobe+Hebrew:wght@400&display=swap');
+body {
+  font-family: 'Adobe Hebrew', serif;
+}
+.container-fluid,
+.bg-body-tertiary {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar,
+.bg-body-tertiary {
+  background-color: transparent !important; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-nav .nav-item .nav-link {
+  padding: 0.75rem 1rem;
+  font-weight: normal; 
+  color: #000;
+  white-space: nowrap;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 1.4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.navbar-nav .nav-item:hover,
+.navbar-nav .nav-item:focus {
+  background-color: #40ccf4;
+}
+
+.navbar-nav .nav-item:hover .nav-link,
+.navbar-nav .nav-item:focus .nav-link {
+  color: #000; 
+}
+
+.nav-divider {
+  width: 1px;
+  height: 24px;
+  background-color: #000;
+  margin: 0 0.5rem;
+}
+
+.custom-dropdown-menu {
+  background-color: #c8ecfc;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+  min-width: 200px;
+}
+
+.custom-dropdown-menu .dropdown-item-wrapper {
+  display: block;
+  width: 100%;
+}
+
+.custom-dropdown-menu .dropdown-item-wrapper:hover,
+.custom-dropdown-menu .dropdown-item-wrapper:focus {
+  background-color: #40ccf4; 
+}
+
+.custom-dropdown-menu .dropdown-item {
+  color: #000;
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+  display: block;
+  font-size: 1.2rem; 
+}
+
+.custom-dropdown-menu .dropdown-item:hover,
+.custom-dropdown-menu .dropdown-item:focus {
+  color: #000; 
+}
+
+.custom-dropdown-menu .dropdown-divider {
+  margin: 0;
+  border-top: 1px dotted #000;
+}
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-img {
+  width: 100%;
+  max-height: 380px; 
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 0.8rem;
   }
 }
