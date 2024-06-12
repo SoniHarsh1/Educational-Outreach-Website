@@ -1,0 +1,21 @@
+.hero-section {
+    margin-top: 56px; 
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .navbar-nav .dropdown-menu {
+    background-color: lightblue;
+  }
+  
+  .navbar-nav .dropdown-menu .dropdown-item {
+    color: black;
+  }
+  
+  .navbar-nav .dropdown-menu .dropdown-item:not(:last-child) {
+    border-bottom: 1px dotted black;
+  }
+  
