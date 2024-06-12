@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './App.css'; 
+import './Navhead.css';
 import img from './maxresdefault.jpg';
 import { Link } from 'react-router-dom';
 

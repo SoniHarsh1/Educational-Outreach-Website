@@ -1,7 +1,7 @@
 import React from 'react'
-import configs from './configs.json'
+import configs3 from './configs3.json'
 export default function Programs() {
-    let cardArr=configs;
+    let cardArr=configs3;
     return (
       <div className="container">
         <h3 className="text-center text-info font-weight-normal my-3" id='head'>Our Programs</h3>

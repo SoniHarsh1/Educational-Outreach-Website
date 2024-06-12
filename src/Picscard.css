@@ -1,0 +1,17 @@
+.clr{
+    background-color: #8f909361;
+  }
+  .fnt{
+  font-family: "Times New Roman", Times, serif;
+  }
+  .hts{
+  height: 20vh;
+  } 
+  @media screen and (max-width: 480px){
+        .hts{
+             height: 25vh;
+        }
+  }
+  #head{
+      font-family: "Times New Roman", Times, serif;
+    }
