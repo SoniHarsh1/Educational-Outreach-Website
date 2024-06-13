@@ -6,8 +6,8 @@ function Cards({ config }) {
   return (
     <div className='row' style={{ marginTop: '2%', marginLeft: '10%', marginRight: '10%' }}>
       {config.map((eachCard, index) => (
-        <div key={index} className='col-md-3' style={{ marginBottom: '4%' }}>
-          <Card style={{ width: 'auto', height: '50vh' }}>
+        <div key={index} className='col-md-3'  style={{ marginBottom: '4%' }}>
+          <Card id='car' style={{ width: 'auto', height: '50vh' }}>
             <Card.Img 
               style={{ height: '75%' }} 
               variant="top" 
