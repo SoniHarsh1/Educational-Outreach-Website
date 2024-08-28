@@ -6,6 +6,7 @@
   }
   #card{
   width: 12em;
+
   }
   #img{
    height: 50%;
@@ -40,3 +41,14 @@
   .hvr{
   transition: all .5s ease;
   }
+
+  video{
+    vertical-align: middle;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+  }
+
+  /* .modal{
+      z-index: 5;
+  } */
+

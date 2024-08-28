@@ -52,9 +52,9 @@ export default function Navbar(props) {
           </div>
         </nav>
       </div>
-      <div className="image-container">
+      {/* <div className="image-container">
         <img src={img} alt="Your Image" className="header-img" />
-      </div>
+      </div> */}
     </>
   );
 }

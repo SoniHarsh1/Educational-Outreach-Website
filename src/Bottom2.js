@@ -22,7 +22,7 @@ export default function Bottom2() {
                  </div>
            </div>
       </div>
-      <div id='cont' className='my-5'>
+      {/* <div id='cont' className='my-5'>
       <div className="container overflow-hidden text-center">
             <div className="row gx-5 m-4">
                 <div className="col-4">
@@ -36,7 +36,7 @@ export default function Bottom2() {
                 </div>
             </div>
       </div>
-    </div>
+    </div> */}
     </div>
   )
 }

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Adobe+Hebrew:wght@400&display=swap');
 body {
   font-family: 'Adobe Hebrew', serif;
+  overflow-x: hidden;
 }
 .container-fluid,
 .bg-body-tertiary {
