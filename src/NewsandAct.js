@@ -1,5 +1,6 @@
 import React from 'react'
 import configs4 from './configs4.json'
+import './Card.css'
 export default function NewsandAct() {
     let cardArr=configs4;
     return (
@@ -10,7 +11,7 @@ export default function NewsandAct() {
         <div className="col-lg-4 col-sm-6 p-3 ">
         <div className='container '>
         <div className="card-container ">
-        <div className="card text-center clr" id='card'>
+        <div className="card text-center clr hvr" id='card'>
           <img src={require('./'+eachCard.img+'.jpeg')} className="card-img-top" id='img' alt="..."/>
           <div className="card-body fnt text-dark">
               <h5 className="card-title">{eachCard.text}</h5>

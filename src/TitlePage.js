@@ -1,8 +1,12 @@
 import React from 'react'
 import './Card.css'
+import vdo from './CampusVideo/IIT Indore Campus Tour - 2023 _ Drone View.mp4'
 export default function TitlePage() {
   return (
     <div>
+         <video height="auto" width="100%" autoPlay loop muted disablePictureInPicture>
+               <source src={vdo} />
+            </video>
           <div className="container">
             <div className="row">
                 <div className="col">

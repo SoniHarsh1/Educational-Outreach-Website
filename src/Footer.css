@@ -1,0 +1,63 @@
+.footer {
+    background-color: #0f0f13;
+    font-family: Lora, serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.footer img {
+    width: 40%;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 170px;
+}
+
+.address{
+    color: #fff;
+    text-align: left;
+    margin: 3% 0;
+}
+
+.footer h4 {
+    color: #007bff;
+}
+.font-acme {
+    font-family: Roboto, sans-serif !important;
+}
+
+.addtext{
+    font-weight: 300;
+}
+.font-ubuntu {
+    font-family: Arial, sans-serif !important;
+}
+a{
+    text-decoration: none;
+}
+
+.links {
+    color: #fff;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.social{
+    text-align: left;
+}
+
+.links a{
+    color: white;
+}
+
+.social a{
+    color: white;
+}
+.acnt img{
+    vertical-align: middle;
+    border-style: none;
+    justify-content: center;
+    max-width: 2em;
+}

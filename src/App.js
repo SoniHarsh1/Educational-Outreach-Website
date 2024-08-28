@@ -1,5 +1,6 @@
 // import './Navhead.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js'
 import Navbar from './Navbar';
 import Head from './Head';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; 
@@ -19,6 +20,8 @@ import Card from './Card';
 import Programs from './Programs.js'
 import Picscard from './Picscard';
 import NewsandAct from './NewsandAct.js'
+import Footer from './footer.js';
+
 function App() {
   return (
          <>
@@ -72,6 +75,7 @@ function App() {
                 }
                 />
         </Routes>
+           <Footer/>
         </Router>
          </>
   );

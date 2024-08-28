@@ -15,3 +15,7 @@
   #head{
       font-family: "Times New Roman", Times, serif;
     }
+  .hw{
+     max-width: 400px;
+     margin-left: 10em;
+  }
